@@ -1,0 +1,148 @@
+/*--------------------------------
+Navbar
+----------------------------------*/
+
+.navbar-brand{
+    margin-left: 2vw;
+    font-family: 'Bonheur Royale', cursive;
+    color: white;
+   font-size: xx-large;
+
+}
+nav{
+    background-color: #000000;
+    color: white;
+}
+.logo{
+    width: 20%;
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    margin-right: 45%;
+}
+.logo img{
+    width: 40%;
+    min-width: 90px;
+}
+.navbar-toggler-icon{
+   border-radius: 2px;
+   border-color: white;
+}
+ul :hover{
+    transform: scale(1.04);
+    
+}
+.dark-light :hover{
+    background-color: transparent;
+}
+
+/*--------------------------------
+End Navbar
+----------------------------------*/
+/*--------------------------------
+Main
+---------------------------------*/
+.home{
+    background-image: url("images/mainbg.png") , linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6));
+    background-size: 100% 100%;
+    position: relative;
+    height: 550px;
+    z-index: 1;
+    background-blend-mode: overlay;
+    background-attachment: fixed;
+}
+
+.headerset{
+    padding-top: 200px;
+    box-sizing: border-box;
+    
+}
+.intro{
+    
+    color: white;
+    z-index: 3;
+    
+}
+.headerset h1{
+    font-size: 10vw 5vh;
+    padding: 0px;
+}
+.headerset h2{
+    font-size: 15px;
+    padding: 0px;
+}
+.tlt{
+    opacity: 1;
+}
+
+/*--------------------------------
+ End Main
+---------------------------------*/
+/*------- service---*/
+.img-setting{
+    border-radius: 50% 0 50% 50%;
+    height: 100%;
+    width: 100%;
+    background-color:  #43e7ec;
+    background-image: linear-gradient(#43e7ec,#00F2DE);
+}
+.img-setting:hover{
+    transform: scale(1.1);
+}
+.ser{
+    list-style: none;
+    margin-top: 15%;
+    margin-bottom: 15%;
+}
+.service{
+    font-size: 3.5vh;
+     margin-bottom: 5%;
+}
+.service:hover{
+    transform: scale(1);
+}
+
+/*-------------contact------*/
+
+.contact-bg{
+    background-image: url("images/contact.jpg");
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    width: 100%;
+    height: 660px;
+}
+#contactus form h1{
+    font-family:'Cardo', serif;
+    font-weight: bold;
+    padding-bottom: 4%;
+    font-style: italic;
+    font-size: 5vw;
+    padding-top: 7%;
+    color: white;
+    
+}
+
+.frmsub {
+    border: none;
+    color: black;
+    background-color: #00F2DE;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    font-weight: bold;
+    font-style: italic;
+}
+  
+  .frmsub:hover {
+    color: black;
+    box-shadow: 0 0px 15px #00F2DE;
+  }
+
+/*-------------contact------*/
+.story{
+    font-family: serif;
+}
+.story:hover{
+    color: black;
+    transform: scale(1.4);
+}
